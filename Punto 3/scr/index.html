@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 4, from LayoutIt!</title>
+
+<link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+
+    <div class="container-fluid">
+	<div class="row top-container">
+		<div class="col-md-12">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="navbar-toggler-icon"></span>
+				</button> <a class="navbar-brand" href="#"><img src="../img/logo.png" alt=""></a>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Acerca de nosotros</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Experiencia de nuestros usuarios</a>
+						</li>
+					</ul>
+					<form class="form-inline">
+						<input class="form-control mr-sm-2" type="text" placeholder="Important topics"> 
+						<button class="btn btn-primary my-2 my-sm-0" type="submit">
+							Search
+						</button>
+					</form>
+					<ul class="navbar-nav ml-md-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Cursos</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="row" id="row-btns">
+				<div class="col-md-2">
+					
+					<button type="button" class="btn btn-secondary btn-sm">
+						Cursos
+					</button>
+				</div>
+				<div class="col-md-2">
+					
+					<button type="button" class="btn btn-secondary btn-sm">
+						Planes
+					</button>
+				</div>
+				<div class="col-md-2">
+					
+					<button type="button" class="btn btn-secondary btn-sm">
+						Instructores
+					</button>
+				</div>
+				<div class="col-md-2">
+					
+					<button type="button" class="btn btn-secondary btn-sm">
+						Contacto
+					</button>
+				</div>
+				<div class="col-md-2">
+					<img alt="Learning Preview" src="../img/learning.png" class="img-learning">
+				</div>
+				<div class="col-md-2">
+					
+					<button type="button" class="btn btn-info btn-block">
+						Iniciar sesión
+					</button> 
+					<button type="button" class="btn btn-primary btn-block">
+						Registrarse
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="courses">
+		<div class="col-md-4">
+			<h3>
+				Aprende SQL
+			</h3>
+			<div class="row">
+				<div class="col-md-6">
+					<img alt="Bootstrap Image Preview" src="../img/sql.png" class="sql-img">
+				</div>
+				<div class="col-md-6">
+					<p class="text-center">
+						SQL es un lenguaje específico de dominio, diseñado para administrar, y recuperar información de sistemas de gestión de
+						bases de datos relacionales.
+					</p>
+				</div>
+			</div> 
+			<button type="button" class="btn btn-success ins-btn">
+				Inscribirme
+			</button>
+		</div>
+		<div class="col-md-4">
+			<h3>
+				Aprende C#
+			</h3>
+			<div class="row">
+				<div class="col-md-6">
+					<img alt="Bootstrap Image Preview" src="../img/cs.png" class="cs-img">
+				</div>
+				<div class="col-md-6">
+					<p class="text-center">
+						"C#" es un lenguaje de programación multiparadigma desarrollado y estandarizado por la empresa Microsoft como parte de
+						su plataforma .NET, que después fue aprobado como un estándar por la ECMA e ISO. C# es uno de los lenguajes de
+						programación diseñados para la infraestructura de lenguaje común.
+					</p>
+				</div>
+			</div> 
+			<button type="button" class="btn btn-success ins-btn">
+				Inscribirme
+			</button>
+		</div>
+		<div class="col-md-4">
+			<h3>
+				Aprende Pascal
+			</h3>
+			<div class="row">
+				<div class="col-md-6">
+					<img alt="Bootstrap Image Preview" src="../img/pascal.png" class="pascal-img">
+				</div>
+				<div class="col-md-6">
+					<p class="text-center">
+						Pascal es un lenguaje de programación creado por el profesor suizo Niklaus Wirth entre los años 1968 y 1969, y publicado
+						en 1970. Su objetivo era crear un lenguaje que facilitara el aprendizaje de programación a sus alumnos, utilizando la
+						programación estructurada y estructuración de datos.
+					</p>
+				</div>
+			</div> 
+			<button type="button" class="btn btn-success ins-btn">
+				Inscribirme
+			</button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12" id="table-prices">
+			<h1>Nuestros planes</h1>
+			<table class="table table-dark table-striped">
+				<thead>
+					<tr>
+						<th>
+							Básico
+						</th>
+						<th>
+							Intermedio
+						</th>
+						<th>
+							Avanzado
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							$5,99 mo
+						</td>
+						<td>
+							$9,99 mo
+						</td>
+						<td>
+							$15,99 mo
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<ul>
+								<li>
+									Cursos certificados
+								</li>
+							</ul>
+						</td>
+						<td>
+							<ul>
+								<li>
+									Cursos certificados
+								</li>
+								<li>
+									Retroalimentación de profesores
+								</li>
+							</ul>
+						</td>
+						<td>
+							<ul>
+								<li>
+									Cursos certificados
+								</li>
+								<li>
+									Retroalimentación de profesores
+								</li>
+								<li>
+									Examenes, talleres, y material extra
+								</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="last-td">
+								<button class="btn btn-outline-danger">
+									Seleccionar
+								</button>
+							</div>
+						</td>
+						<td>
+							<div class="last-td">
+								<button class="btn btn-outline-danger">
+									Seleccionar
+								</button>
+							</div>
+						</td>
+						<td>
+							<div class="last-td">
+								<button class="btn btn-outline-danger">
+									Seleccionar
+								</button>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<footer>
+		<div class="row" id="footer-things">
+			<div class="col-md-8">
+				<div class="btn-group" role="group">
+		
+					<button class="btn btn-secondary" type="button" id="social-btn">
+						Facebook
+					</button>
+					<button class="btn btn-secondary" type="button" id="social-btn">
+						Instagram
+					</button>
+					<button class="btn btn-secondary" type="button" id="social-btn">
+						Twitter
+					</button>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<p>
+					421 Kraig Road, Maximilianville, Colorado
+				</p>
+				</p>
+			</div>
+		</div>
+	</footer>
+</div>
+
+	<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graficadora Simple</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>Graficadora</h1>
+        <div class="input-container">
+            <label for="xValue">X: </label>
+            <input type="number" id="xValue" value="0">
+            <label for="yValue">Y: </label>
+            <input type="number" id="yValue" value="0">
+            <button onclick="drawLine()" class="button_slide slide_right">Graficar</button>
+            <button onclick="clearCanvas()" class="button_slide slide_right">Limpiar</button>
+        </div>
+        
+        <canvas id="myCanvas" width="400" height="400"></canvas>
+    </div>
+
+    <script src="graficadora.js"></script>
+</body>
+
+</html>
